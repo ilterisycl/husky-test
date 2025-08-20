@@ -1,10 +1,5 @@
-console.warn("This is a warning message");
-console.error("This is an error message");
-console.info("This is an info message");
-console.debug("This is a debug message");
-console.trace("This is a trace message");
-console.assert(1 === 1, "This assertion will not fail");
-console.group("Grouped logs");
-console.groupEnd();
 x = 5 * 4;
 y = 10 * 2;
+// This is a sample code snippet to demonstrate the removal of console logs.
+// The console.log statements should be removed by the script.
+// The above console logs should not appear in the final output after running the script.
