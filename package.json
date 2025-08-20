@@ -1,0 +1,22 @@
+{
+  "name": "husky-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "check-console",
+    "prepush": "check-console"
+  },
+    "husky": {
+    "hooks": {
+      "pre-commit": "pnpm run precommit",
+      "pre-push": "pnpm run prepush"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
