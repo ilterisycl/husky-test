@@ -1,0 +1,2 @@
+node scripts/remove-console-logs.js
+git add -u

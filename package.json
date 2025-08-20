@@ -5,14 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "check-console",
-    "prepush": "check-console"
-  },
-    "husky": {
-    "hooks": {
-      "pre-commit": "pnpm run precommit",
-      "pre-push": "pnpm run prepush"
-    }
+    "prepare": "husky"
   },
   "author": "",
   "license": "ISC",
